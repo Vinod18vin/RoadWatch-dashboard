@@ -1,0 +1,1 @@
+import React from 'react';export default function PageHeader({kicker,title,description,actions}){return <div className="page-heading"><div><div className="eyebrow">{kicker}</div><h2>{title}</h2><p>{description}</p></div>{actions&&<div className="page-actions">{actions}</div>}</div>}
